@@ -1,37 +1,54 @@
-
-
-.home{
-    text-align: center;
-
+.home {
+  text-align: center;
 }
-.home img{
-    display: block;
+.home img {
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
 
-
 .searchBar {
-    padding: 0.5rem;
-    margin: 1rem auto;
-    display: block;
-    width: 40%;
+  padding: 0.5rem;
+  margin: 1rem auto;
+  display: block;
+  width: 40%;
 }
 
 .listWrapper {
-    align-items: center;
+  align-items: center;
   justify-content: center;
   display: flex;
 }
 
 .productWrapper {
-    margin: 20px;
+  margin: 20px;
 }
-.productWrapper img{
-    width: 200px;
-    height: 200px;
+.productWrapper img {
+  width: 200px;
+  height: 200px;
 }
-.productWrapper p{
-    text-align: center;
+.productWrapper p {
+  text-align: center;
+}
+
+.details {
+  align-items: center;
+}
+
+.details img {
+  width: 50px;
+}
+
+.home button {
+  margin: 15px;
+}
+
+.darktheme {
+  background-color: dimgray;
+  color: aliceblue;
+}
+.lighttheme {
+  background-color: white;
+  color: black;
 }
